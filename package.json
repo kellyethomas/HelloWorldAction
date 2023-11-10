@@ -1,0 +1,24 @@
+{
+  "name": "helloworldaction",
+  "version": "1.0.0",
+  "description": "testing creating an action to be used an workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyethomas/HelloWorldAction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellyethomas/HelloWorldAction/issues"
+  },
+  "homepage": "https://github.com/kellyethomas/HelloWorldAction#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
