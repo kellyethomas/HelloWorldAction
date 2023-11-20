@@ -12,6 +12,7 @@ try {
   const payload2 = JSON.stringify(github.context, undefined, 2);
   console.log(`The event payload: ${payload}`);
   console.log(`The event payload2: ${payload2}`);
+  console.log(`The event payload3: ${process.env.GITHUB_SHA_SHORT}`);
 } catch (error) {
   core.setFailed(error.message);
 }
