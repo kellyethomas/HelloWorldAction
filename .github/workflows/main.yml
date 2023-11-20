@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      - name: Find Text
+        run: |
+        echo "GITHUB_SHA_SHORT=$(git diff --staged)" >> $GITHUB_ENV
       - name: Hello world action step
         id: hello
         uses: kellyethomas/HelloWorldAction@v1.2
