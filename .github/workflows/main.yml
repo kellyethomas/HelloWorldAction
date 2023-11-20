@@ -10,7 +10,7 @@ jobs:
         echo "GITHUB_SHA_SHORT=$(git diff --staged)" >> $GITHUB_ENV
       - name: Hello world action step
         id: hello
-        uses: kellyethomas/HelloWorldAction@v1.2
+        uses: kellyethomas/HelloWorldAction@v1.3
         with:
           who-to-greet: 'Kelly'
       # Use the output from the `hello` step
